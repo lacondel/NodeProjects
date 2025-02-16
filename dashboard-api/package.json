@@ -1,0 +1,21 @@
+{
+  "name": "dashboard-api",
+  "version": "1.0.0",
+  "description": "Dashboarf API",
+  "license": "ISC",
+  "author": "lacondel",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "tslog": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
